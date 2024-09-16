@@ -8,3 +8,5 @@ This game for now currently runs on your local network. The purpose of this game
 - run `npm install` to download the required packages. (express, socket.io)
 - run `npm run start` to start the server locally and will run on port `localhost:3000`. You can access the server on your local network by using your IP address instead of `localhost`
 
+## Credits
+Walls, seats, avatars and floor images were all downloaded by [OpenGameArt.org](https://opengameart.org/)
