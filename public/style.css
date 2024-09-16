@@ -1,0 +1,46 @@
+/* Existing styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+#loginScreen input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+}
+
+#loginScreen button,
+#gameScreen button {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+#gameCanvas {
+    border: 2px solid #000;
+    background-color: #fff;
+    /* Make the canvas scrollable if larger than the viewport */
+    position: relative;
+    overflow: auto;
+}
+
+#status {
+    margin-top: 10px;
+    font-size: 18px;
+    color: green;
+}
